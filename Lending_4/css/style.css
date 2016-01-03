@@ -1,0 +1,458 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, 
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html {height: 100%;}
+body {
+	height: 100%;
+	font: 14px/18px 'Times New Roman', Times, sans-serif;
+	background-color: #fff;
+}
+ol, ul {list-style: none;}
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	       -box-sizing: border-box;
+}
+a, a:hover {text-decoration: none;}
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear: both;}
+
+.left {float: left;}
+.right {float: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: PTSans;
+	src: url(../fonts/pt_sans_regular.eot);
+	src: url(../fonts/pt_sans_regular.otf);
+	src: url(../fonts/pt_sans_regular.ttf);
+	src: url(../fonts/pt_sans_regular.woff);
+}
+
+
+
+#wrapper {
+	font-family: PTSans;
+	background: url(../img/backgound-wrapper.png) no-repeat;
+}
+a {color: #353b55;}
+
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+/*--  HEADER  ----------------------------
+------------------------------------------------*/
+.header {vertical-align: middle;}
+
+.menu_top {
+	margin-top: 4px;
+	line-height: 35px;
+	background-color: #acd0e2;
+}
+.menu_top .tel {
+	font-size: 23px;
+	margin-right: 20px;
+	margin-left: 225px;
+}
+.menu_top .bt {
+	font-size: 17px;
+	padding: 2px 12px;
+	margin-left: 5px;
+	background-color: #e6f1f6;
+	border-radius: 5px;
+}
+
+ /*--  MENU  ----------------------------
+------------------------------------------------*/
+.menu {
+	height: 44px;
+	background-color: #ffffff;
+	text-align: center;
+}
+.menu ul li {
+	display: inline-block;
+	line-height: 42px;
+}
+.menu ul li:hover {background-color: #edf5ff;}
+.menu ul li a {
+	font-size: 21px;
+	font-weight: 400;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+.pr {background-color: rgba(248, 248, 246, 0.7);}
+
+
+/*--  block_1  -------------------------------
+ ------------------------------------------------------*/
+
+.blok_1 {
+	height: 420px;
+	padding-top: 100px;
+}
+
+.logo {
+	display: inline-block;
+	position: relative;
+	left: -10px;
+	margin-right: 50px;
+}
+.kom {
+	display: inline-block;
+	margin-right: -50px;
+}
+h1.zag {
+	font-size: 41px;
+	color: #0a7fb8;
+	text-align: center;
+}
+
+
+/*--  block_2  -------------------------------
+------------------------------------------------------*/
+
+.blok_2 {
+	height: 550px;
+	padding-top: 80px;
+}
+.block-text {
+	width: 700px;
+	margin: 0 auto;
+	line-height: 23px;
+	text-align: center;
+}
+.block-text p {
+	font-size: 20px;
+	margin-top: 40px;
+}
+
+
+/*--  block_3  -------------------------------
+------------------------------------------------------*/
+.blok_3 {
+	height: 480px;
+	padding-top: 100px;
+}
+.bloc-center {
+	width: 870px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.bloc-l {margin-left: 85px;}
+
+.describe {font-size: 20px;}
+
+.describe li {line-height: 25px;}
+
+.og {
+	font-weight: 600;
+	color: #0a7fb8;
+	padding: 20px 0 1px;
+}
+
+
+/*--  block_4  -------------------------------
+------------------------------------------------------*/
+.blok_4 {
+	height: 570px;
+	padding-top: 80px;
+	background-image: url(../img/Layer-2-1.png);
+	background-repeat: no-repeat;
+	background-position: -125px 0;
+}
+.st {list-style: disc;}
+
+.st li {
+	float: left;
+	list-style: disc;
+	font-size: 18px;
+	font-weight: 600;
+	color: #0a7fb8;
+	width: 25%;
+}
+.st p {
+	font-size: 16px;
+	font-weight: 100;
+	margin-top: 15px;
+	margin-left: 10px;
+	color: #334256;
+}
+.st-1 {
+	position: relative;
+	top: 190px;
+	left: -35px;
+}
+.st-2 {
+	position: relative;
+	top: 48px;
+	left: 56px;
+}
+.st-3 {
+	position: relative;
+	top: 155px;
+	left: 137px;
+}
+.st-4 {
+	position: relative;
+	top: 15px;
+	left: 190px;
+}
+
+
+/*--  block_5  -------------------------------
+------------------------------------------------------*/
+.blok_5 {
+	height: 470px;
+	padding-top: 100px;
+}
+
+
+/*--  block_6  -------------------------------
+------------------------------------------------------*/
+.blok_6 {
+	height: 580px;
+	padding-top: 80px;
+}
+.blok_6 .wrap {width: 1200px;}
+
+.kontact {
+	width: 540px;
+	margin-top: 70px;
+	margin-left: -70px;
+}
+.moskow {
+	display: inline-block;
+	float: left;
+	width: 540px;
+	height: 139px;
+}
+.moskow img {float: left;}
+
+.moskow h3 {
+	font-size: 25px;
+	font-weight: 600;
+	color: #0a7fb8;
+	display: inline-block;
+	padding-top: 28px;
+	padding-left: 25px;
+	padding-bottom: 20px;
+}
+.moskow p {
+	display: inline-block;
+	margin-bottom: 3px;
+}
+.moskow span {
+	font-size: 16px;
+	margin-right: 50px;
+}
+.info {margin-left: 195px;}
+
+
+.yaroslavl {
+	display: inline-block;
+	float: left;
+	width: 540px;
+	height: 139px;
+}
+.yaroslavl img {float: left;}
+
+.yaroslavl h3 {
+	font-size: 25px;
+	font-weight: 600;
+	color: #0a7fb8;
+	display: inline-block;
+	padding-top: 40px;
+	padding-left: 25px;
+	padding-bottom: 20px;
+}
+.yaroslavl span {
+	font-size: 16px;
+	margin-right: 85px;
+}
+.yaroslavl span.dol {margin-right: 50px;}
+
+span.dol {
+	font-size: 14px;
+	font-style: italic;
+	color: #979897;
+}
+
+
+
+/*--  form  -------------------------------
+------------------------------------------------------*/
+.form {
+	width: 620px;
+	height: 340px;
+	border: 1px dashed #979897;
+	border-radius: 15px;
+	padding: 40px 0 40px 70px;
+	margin-top: 66px;
+}
+.form:after {
+	content: " ";
+	display: table;
+	width: 604px;
+	height: 16px;
+	margin-left: -60px;
+	margin-top: -10px;
+	background: url(../img/form-bottom.png) no-repeat;
+
+}
+.form p {
+	font-size: 16px;
+	margin-bottom: 35px;
+}
+p.name {margin-left: 33px;}
+
+.input {
+	height: 25px;
+	width: 200px;
+	margin-left: 35px;
+	border: 1px dashed #979897;
+	border-radius: 8px;
+	box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+#text {
+	width: 400px;
+	height: 80px;
+}
+p.text {margin-left: -20px;}
+
+.form span {
+	position: relative;
+	top: -50px;
+	display: inline-block;
+}
+#submit {
+	width: 168px;
+	height: 35px;
+	font-size: 14px;
+	margin-left: 335px;
+	border: 1px dashed #979897;
+	border-radius: 8px;
+	background: linear-gradient(to top, #f8efdc, #dae6e8);
+	cursor: pointer;
+}
+
+
+
+
+/*--  paralax  -------------------------------
+------------------------------------------------------*/
+.paralax {background: url(../img/Layer-53-1.png) no-repeat -15px;}
+
+
+
+/*--  carusel  -------------------------------
+------------------------------------------------------*/
+.carousel  {
+   max-width: 960px;
+   margin: 50px auto;
+   width:100%;
+   z-index: 1;
+}
+.carousel-wrapper {
+   margin: 10px 30px;
+   overflow: hidden;
+   position:relative;
+}
+.carousel-items {
+   width: 10000px;
+   position: relative;
+}
+.carousel-block {
+   float: left;
+   width: 160px;
+   height: 160px;
+   margin: 10px 8px;
+   border-radius: 80px;
+   background-color: #ffffff;
+   text-align: center;
+   line-height: 160px;
+}
+.carousel-block a {
+	display: inline-block;
+	width: 160px;
+	height: 160px;
+	padding: 5px;
+	border-radius: 80px;
+}
+.carousel-block a:hover {
+	padding: 0;
+	border: 5px solid #70c0d1;
+}
+.carousel-block img {
+	display:inline-block;
+	vertical-align: middle;
+}
+
+/*--  BUTTONS  -------------------------------
+------------------------------------------------------*/
+.carousel-button-left a, .carousel-button-right a{
+   width: 41px; 
+   height: 41px; 
+   position: relative;
+   top: 70px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+.carousel-button-left a{
+   float: left;
+   background: url(../img/left-st.png); 
+}
+.carousel-button-right a{
+   float: right;
+   background: url(../img/right-st.png); 
+}
+

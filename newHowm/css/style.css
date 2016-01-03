@@ -1,0 +1,288 @@
+/*--  HEADER  -------------------------------
+------------------------------------------------------*/
+
+
+.header {
+	background-color: #ffffff;
+	z-index: 1;
+}
+
+.navbar-default {
+	background-color: #ffffff;
+}
+.navbar-nav {
+	margin-top: 19px;
+	text-align: center;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #004849;
+
+}
+.navbar-default .navbar-nav > li:hover > spa {
+	display: inline-block;
+	width: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 18px solid #f4d79c;
+}
+
+/*--  Content  -------------------------------
+------------------------------------------------------*/
+
+.content_center {
+	height: 545px;
+	margin-top: -25px;
+	background: url(../img/content_bg.png) no-repeat center;
+	z-index: 10;
+}
+
+/*--  Services  -------------------------------
+------------------------------------------------------*/
+
+.services {
+	height: 158px;
+	background-color: #336666;
+	border-top: 2px solid #ffffff;
+}
+
+.column {
+	height: 185px;
+	margin-top: 70px;
+	text-align: center;
+	background-color: #ffffff;
+	border: 1px solid #eaeaea;
+	box-shadow: 0 4px 4px rgba(204, 204, 204, 0.5);
+}
+.column_icon {
+	display: inline-block;
+	position: relative;
+	top: -38px;
+	width: 78px;
+	height: 78px;
+	border: 1px solid #eaeaea;
+	background: url(../img/Power-Gears-copy.png) center center no-repeat #fbfbfb;
+}
+.column_icon:hover {
+	background: url(../img/Aim.png) center center no-repeat #8ee8e2;
+}
+.column_top {
+	height: 84px;
+	border-bottom: 1px dotted #d9d9d9;
+}
+.column_top h4 {
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	top: -35px;
+}
+.column_bottom {
+	height: 100px;
+}
+.column_bottom p {
+	font-size: 11px;
+	color: #a7a7a7;
+	padding: 10px 5px 45px;
+	margin: 0;
+}
+
+
+
+/*--  Conteiner_Our  -------------------------------
+------------------------------------------------------*/
+
+.our {
+	margin-top: 190px;
+}
+.our h3 {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.our p {
+	padding-right: 60px;
+	padding-bottom: 130px;
+}
+
+
+.work {
+	display: inline-block;
+	border: 1px solid #efefef;
+}
+.work h5 {
+	margin: 25px 0 20px 15px;
+	font-weight: bold;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.work a {
+	margin-left: 50px;
+	color: #8ee8e2;
+	
+	
+}
+.more_st {
+	display: inline-block;
+	height: 15px;
+	width: 12px;
+	vertical-align: middle;
+	background: url(../img/st.png) no-repeat 3px 0;
+}
+
+
+/*--  Banner  -------------------------------
+------------------------------------------------------*/
+
+.banner {
+	height: 150px;
+	border-top: 1px solid #3f5353;
+	background-color: #293f3f;
+	color: #ffffff;
+}
+.banner h3 {
+	margin: 45px 0 20px;
+}
+
+.ban_sub {
+	margin-top: 50px;
+}
+input[type="submit"] {
+	font-size: 16px;
+	border: 0;
+}
+.sub_1 {
+	padding: 15px 36px;
+	color: #ffffff;
+	border-radius: 5px 0 0 5px;
+	background-color: #66cccc;
+}
+.sub_2 {
+	position: relative;
+	top: 6px;
+	right: 4px;
+	padding: 15px 26px;
+	border-radius: 0 5px 5px 0;
+	background: url(../img/st_bt.png) no-repeat 23px 21px #ffffff;
+}
+
+
+/*--  Footer  -------------------------------
+------------------------------------------------------*/
+
+.footer {
+	padding: 20px 0 10px;
+	font-size: 11px;
+	color: #999999;
+}
+.footer p {
+	
+	color: #999999;
+}
+
+.foot_menu {
+	position: relative;
+	right: 60px;
+}
+.foot_menu li {
+	display: inline-block;
+	list-style-type: none;
+}
+.foot_menu li a {
+	padding: 10px 0 10px 3px;
+	color: #999999;
+}
+.foot_menu li a:after {
+	content: '/';
+	display: inline-block;
+	margin-left: 5px;
+}
+.foot_menu li:last-child a:after {
+	content: '';
+}
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+
+	.navbar-default .navbar-nav > li > a {
+		padding: 15px 10px;
+	}
+	.banner h3 {
+		margin: 35px 0 20px;
+	}
+	.foot_menu {
+		width: 320px;
+	}
+}
+
+
+
+@media screen and (max-width: 991px) {
+	
+	.navbar-nav {
+		margin: 19px -10px 0;
+	}
+	.navbar-default .navbar-nav > li:hover > span {
+		margin: 0;
+	}
+
+	.banner h3 {
+		margin-bottom: 10px;
+	}
+
+	.sub_1 {
+		padding: 15px 15px;
+	}
+	.sub_2 {
+		position: relative;
+		top: 6px;
+		right: 4px;
+		padding: 15px 20px;
+		background-position: 15px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+	.navbar-toggle {
+		margin-top: 35px;
+		margin-right: 45px;
+	}
+
+	.navbar-collapse {
+		position: relative;
+		top: 15px;
+		left: -45px;
+	}
+	
+	.navbar-nav {
+		margin-top: 0;
+	}
+	.navbar-default {
+		margin-bottom: 40px;
+	}
+	.navbar-default .navbar-nav > li {
+		height: 50px;
+		border-bottom: 1px solid #e7e7e7;
+	}
+	.navbar-default .navbar-nav > li:hover > span {
+		display: block;
+		position: relative;
+		top: -37px;
+		left: 140px;
+		width: 0;
+		height: 0;
+		border-top: 9px solid transparent;
+		border-left: 18px solid #f4d79c;
+		border-bottom: 9px solid transparent;
+	}
+	
+}
